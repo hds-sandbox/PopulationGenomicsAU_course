@@ -26,5 +26,4 @@ dependencies:
   - conda-forge::r-data.table
   - conda-forge::r-vcfr
   - conda-forge::r-qqman
-  - conda-forge::r-rehh
   - bioconda::bioconductor-snprelate
