@@ -1,0 +1,30 @@
+name: popgen-course
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  # command-line tools used in the notebooks
+  - bioconda::bwa
+  - bioconda::minimap2
+  - bioconda::samtools
+  - bioconda::bcftools
+  - bioconda::vcftools
+  - bioconda::psmc
+  - bioconda::admixture
+  - bioconda::plink
+  - bioconda::gcta
+  - conda-forge::openjdk
+  # kernels
+  - conda-forge::bash_kernel
+  - conda-forge::r-irkernel
+  # R packages
+  - conda-forge::r-base>=4.0.0
+  - conda-forge::r-ggplot2
+  - conda-forge::r-dplyr
+  - conda-forge::r-tidyr
+  - conda-forge::r-magrittr
+  - conda-forge::r-data.table
+  - conda-forge::r-vcfr
+  - conda-forge::r-qqman
+  - conda-forge::r-rehh
+  - bioconda::bioconductor-snprelate
